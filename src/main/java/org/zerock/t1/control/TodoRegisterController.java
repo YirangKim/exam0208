@@ -28,7 +28,7 @@ public class TodoRegisterController extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws
         ServletException, IOException {
-        System.out.println("입력을 처리하고 목록 페이지로 이동");
+        System.out.println("입력을 처리하고 목록 페이지로 이동동동동");
 
         req.setCharacterEncoding("UTF-8");
 
