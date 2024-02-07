@@ -30,11 +30,13 @@ public enum TodoService {
     }
 
     public List<TodoDTO> listAll()throws Exception {
-        List<TodoVO> voList = dao.SelectAll();
+        List<TodoVO> voList = dao.selectAll();
         log.info("voList...............");
         log.info(voList);
         List<TodoDTO> dtoList = voList.stream()
                 .map(vo -> modelMapper.map(vo,TodoDTO.class))
                 .collect(Collectors.toList());
+
+        return dtoList;
     }
 }
