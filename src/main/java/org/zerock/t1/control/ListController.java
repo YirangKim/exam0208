@@ -1,9 +1,6 @@
 package org.zerock.t1.control;
 
 import lombok.extern.log4j.Log4j2;
-import org.zerock.t1.domain.TodoVO;
-
-import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -12,7 +9,6 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-import org.zerock.t1.dao.TodoDAO;
 import org.zerock.t1.dto.TodoDTO;
 import org.zerock.t1.service.TodoService;
 

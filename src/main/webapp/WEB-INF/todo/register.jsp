@@ -33,7 +33,7 @@
     <textarea rows="10" cols="50" name="content"></textarea><br>
 
     <button type="submit">회원가입</button>
-    <button type="reset">다시쓰기</button>
+    <button type="reset">재작성</button>
 </form>
 
 </body>
